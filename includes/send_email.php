@@ -16,8 +16,8 @@ function sendInternshipEmail($to, $subject, $messageBody)
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'tamkaidit50@gmail.com';
-        $mail->Password = 'mfsi hzbs lfxr jzgd';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
