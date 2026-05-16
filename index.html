@@ -27,7 +27,7 @@
       <section class="login-form"> <!--grouping container for right side design (white block) -->
         <div class="form-wrapper"> <!--<div> to wrap the login box -->
          <h2>Login</h2> <!--big text "Login"-->
-          <form action="#" method="POST"> <!--form tag tells browser that everything inside for data submission-->
+          <form action="role_Selection.html" method="POST"> <!--form tag tells browser that everything inside for data submission-->
                                           <!--action="#" means the form will submit to the same page until link with databse script-->
                                           <!--method="POST" means the secure way data will be sent in the body of the HTTP request, not visible in the URL-->
            <div class="input-group"> <!--grouping container for input email-->
@@ -36,7 +36,8 @@
 
            <div class="input-group"> <!--grouping container for input password-->
             <input type="password" id="password" name="password" placeholder="Password" required> <!--input field for password, type="password" hides the characters, placeholder is the text inside the box, required means it must be filled out-->
-            <span class ="password-eye-icon">   </span> <!-- letak mata password-->
+            <span class ="password-eye-icon"> </span> <!-- letak close password-->
+            <span class="password-eye-icon"></span> <!-- letak open password-->
            </div> <!-- close input password container-->
 
              <button type="submit" class="login-btn">Login</button> <!--submit button for login-->

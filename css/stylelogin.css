@@ -66,12 +66,14 @@ body
 
 .input-group{
     position: relative;
-    margin-bottom: 1.5rem;
+    margin-bottom: 20px;
+    width: 100%;
+    
 }
 
 .input-group input{ /* specifically for <input email> fields */
     width: 100%;
-    padding: 15px 20px;
+    padding: 15px 50px 15px 20px; /* add padding to the right for the eye icon */
     border-radius: 25px;
     border: 2px solid #ccc;
     outline: none;
@@ -87,12 +89,21 @@ body
 }
 
 .password-eye-icon {
-    position: absolute;
+   position: absolute;
     right: 15px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #888;
+}
+
+.password-eye-icon img {
+    width: 20px;
+    height: auto;
+    display: block;
+}
+
+.password-eye-icon img:hover {
+    opacity: 1.0;
 }
 
 .login-btn{ /* to design the login button */
